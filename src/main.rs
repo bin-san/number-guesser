@@ -29,8 +29,8 @@ fn main(){
 
 fn rules(stdin:&Stdin){
     let mut ip = String::new();
-    println!("***NUMBER GUESSER GAME***");
-    println!("    ---BY SANDIPAN---    ");
+    println!("***NUMBER GUESSING GAME***");
+    println!("     ---BY SANDIPAN---    ");
     println!("Rules: Press enter");
     stdin.read_line(&mut ip);
     println!("1. I will think of a number between 1 and 100.");
